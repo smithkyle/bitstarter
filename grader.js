@@ -51,7 +51,7 @@ var checkUrl = function(url) {
             var outfile = "temp.html";
             fs.writeFile(outfile, result);
             return result;
-        };
+        }
     });
     return outfile;
 };
